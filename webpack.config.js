@@ -29,11 +29,6 @@ module.exports = {
           'css-loader'
         ]
       },
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "eslint-loader"
-      }
     ]
   }
 };
